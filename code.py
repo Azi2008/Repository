@@ -2,7 +2,7 @@ from pygame import *
 import classes
 import pygame
 
-pygame.font.init()
+pygame.init()
 
 
 class GameSprite(sprite.Sprite):
@@ -98,5 +98,5 @@ while game:
 
 
     
-        display.update()
-        clock.tick(60)
+    display.update()
+    clock.tick(60)
